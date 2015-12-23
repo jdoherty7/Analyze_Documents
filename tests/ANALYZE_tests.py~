@@ -250,7 +250,7 @@ def test_print_adjacency_list_as_words():
 	desired_result = graph = {"what": ['is', 'it'], 
 							  "is":   ['what', 'huh'],
 							  "huh":  ['is']}
-	if result ==  desired_result:
+	if thing ==  desired_result:
 		print "PASS!"
 	else:
 		print "FAIL!"
