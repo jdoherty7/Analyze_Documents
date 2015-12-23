@@ -1,0 +1,13 @@
+import document_functions as df
+import os
+
+#find all files in unformatted and reformats them even if they had
+#been formatted earlier. maybe check if already formatted 
+def main():
+	all_files = os.listdir(os.getcwd()+"/docs/Unformatted")
+
+	for element in all_files:
+		df.nicely_format(element)
+
+if __name__ == "__main__":
+	main()

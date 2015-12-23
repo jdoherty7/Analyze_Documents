@@ -5,9 +5,8 @@
 
 The purpose of this script is to take a document, which will be inputted as a text file, and
 copy the document and format it nicely, saving the formatted version in a new folder. The script
-will also output the an array of all the words in the formatted document. Run this script (format_all.py) only once when you add new text files.
-You do not need to run it again until you add more. Make sure to run
-all files from the top of the repository, Analyze_Docs.
+will also output the an array of all the words in the formatted document. Run this script only once when you add new text files.
+You do not need to run it again until you add more.
 
 # Statistical Analysis of Word Spectrum
 
