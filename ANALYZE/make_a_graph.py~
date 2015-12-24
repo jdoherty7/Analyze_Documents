@@ -152,7 +152,7 @@ def change_to_adjacency_list(matrix, frequency=None):
 #has test
 #given a graph and frequency matrix this should change the graph
 #made of numbers to the words they represent
-def make_adjacency_list_into_words(graph, frequency):
+def print_adjacency_list_as_words(graph, frequency):
 	new_graph = {}
 	for thing in graph.keys():
 		array = graph[thing]
@@ -160,7 +160,7 @@ def make_adjacency_list_into_words(graph, frequency):
 		for element in array:
 			 new_array.append(frequency[element][0])
 		new_graph[frequency[thing][0]] = new_array
-	return new_graph
+
 
 
 
