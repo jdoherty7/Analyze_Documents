@@ -1,13 +1,18 @@
 import make_a_graph as mg
 import graph_functions as gf
-
+import os
 
 def main():
-	thing = mg.create_graph_from_formatted_document("the_last_answer_FORMATTED.txt")
+	thing = mg.create_graph_from_formatted_document(os.getcwd() + 
+											 "/docs/Formatted/" + 
+											 "the_last_answer_FORMATTED.txt")
 
-	dictionary = thing[2]
-	frequency = thing[1]
+	dictionary   = thing[2]
+	frequency    = thing[1]
 	graph_matrix = thing[0]
+
+	#functions to analyze and visualize the the graphical representation
+	#of the document (not very good, but the algorithms are there)
 
 	#gf.nice_print_2(graph_matrix)
 	#flayshall = gf.fwa(graph_matrix):
